@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-24T19:50:02 MST" name="Parallel Tests" finished-at="2025-04-24T19:50:16 MST" duration-ms="13762">
+    <groups>
+    </groups>
+    <test started-at="2025-04-24T19:50:02 MST" name="Test Group 1" finished-at="2025-04-24T19:50:08 MST" duration-ms="5552">
+      <class name="part2.com.saucedemo.tests.Login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:part2.com.saucedemo.tests.Login.LoginTest@d706f19]" started-at="2025-04-24T19:50:02 MST" name="setUp" finished-at="2025-04-24T19:50:04 MST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:part2.com.saucedemo.tests.Login.LoginTest@d706f19]" started-at="2025-04-24T19:50:04 MST" name="testLogin" finished-at="2025-04-24T19:50:05 MST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part2.com.saucedemo.tests.Login.LoginTest@d706f19]" started-at="2025-04-24T19:50:05 MST" name="tearDown" finished-at="2025-04-24T19:50:06 MST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:part2.com.saucedemo.tests.Login.LoginTest@d706f19]" started-at="2025-04-24T19:50:06 MST" name="setUp" finished-at="2025-04-24T19:50:07 MST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginErrorMessage()[pri:0, instance:part2.com.saucedemo.tests.Login.LoginTest@d706f19]" started-at="2025-04-24T19:50:07 MST" name="testLoginErrorMessage" finished-at="2025-04-24T19:50:07 MST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part2.com.saucedemo.tests.Login.LoginTest@d706f19]" started-at="2025-04-24T19:50:07 MST" name="tearDown" finished-at="2025-04-24T19:50:08 MST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- part2.com.saucedemo.tests.Login.LoginTest -->
+    </test> <!-- Test Group 1 -->
+    <test started-at="2025-04-24T19:50:08 MST" name="Test Group 2" finished-at="2025-04-24T19:50:16 MST" duration-ms="8175">
+      <class name="tests.Products.ProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:08 MST" name="setUp" finished-at="2025-04-24T19:50:09 MST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAndCompareCostOfRedTshirt()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:09 MST" name="getAndCompareCostOfRedTshirt" finished-at="2025-04-24T19:50:10 MST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAndCompareCostOfRedTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:10 MST" name="tearDown" finished-at="2025-04-24T19:50:10 MST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:10 MST" name="setUp" finished-at="2025-04-24T19:50:12 MST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orderProductsByZtoA()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:12 MST" name="orderProductsByZtoA" finished-at="2025-04-24T19:50:13 MST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProductsByZtoA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:13 MST" name="tearDown" finished-at="2025-04-24T19:50:13 MST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:13 MST" name="setUp" finished-at="2025-04-24T19:50:15 MST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClickAddToCartAndCheckIfRemoveButtonWasDisplayed()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:15 MST" name="testClickAddToCartAndCheckIfRemoveButtonWasDisplayed" finished-at="2025-04-24T19:50:16 MST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickAddToCartAndCheckIfRemoveButtonWasDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Products.ProductsTest@2e4b8173]" started-at="2025-04-24T19:50:16 MST" name="tearDown" finished-at="2025-04-24T19:50:16 MST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Products.ProductsTest -->
+    </test> <!-- Test Group 2 -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>
